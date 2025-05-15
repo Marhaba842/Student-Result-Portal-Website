@@ -90,3 +90,6 @@ http://localhost:8080/StudentResultPortal/
 * Open `index.html` to allow students to enter their roll number and view results.
 * Use `admin.html` to enter student details and add marks (handled by AdminServlet).
 
+
+
+
