@@ -1,12 +1,12 @@
 # Student Result Portal
 
-A simple Java-based website for managing and displaying student assessment results.
+A simple Java-based website for managing and displaying students assessment results.
 
 ## Description
 
 This project is a basic web-based Student Result Portal that allows:
 * Students to enter their roll number and view their subject-wise marks.
-* admins to add new student details and marks for specific subjects.
+* Admins to add new student details and marks for specific subjects.
 
 ## Technologies Used
 
