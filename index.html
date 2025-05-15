@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Result Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 300px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Enter Roll Number</h2>
+    <form action="ResultServlet1" method="post" onsubmit="validateForm(event)">
+      <input type="text" name="roll_no" id="roll_no" placeholder="Roll Number" required>
+      <button type="submit">Get Result</button>
+    </form>
+  </div>
+
+  <script>
+    function validateForm(event) {
+      const roll = document.getElementById("roll_no").value.trim();
+      if (roll.length < 2) {
+        alert("Enter a valid Roll Number (at least 2 characters)");
+        event.preventDefault(); 
+      }
+    }
+  </script>
+</body>
+</html>
