@@ -22,20 +22,20 @@ This project is a basic web-based Student Result Portal that allows:
 StudentResultPortal (Project Root)
 │
 ├── src/main/java
-│   ├── A_Servlet
-│   │   └── AdminServlet.java
-│   └── R_Servlet
-│       └── ResultServlet.java
+│ ├── A_Servlet
+│ │ └── AdminServlet.java
+│ └── R_Servlet
+│ └── ResultServlet.java
 │
 ├── webapp
-│   ├── META-INF
-│   └── WEB-INF
-│       ├── lib
-│       │   └── mysql-connector-j-9.3.0.jar
-│       ├── web.xml
-│       ├── admin.html
-│       ├── index.html
-│       └── result.jsp
+│ ├── META-INF
+│ └── WEB-INF
+│ ├── lib
+│ │ └── mysql-connector-j-9.3.0.jar
+│ ├── web.xml
+│ ├── admin.html
+│ ├── index.html
+│ └── result.jsp
 
 
 ### How to Run the Project in Eclipse
